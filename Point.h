@@ -1,5 +1,5 @@
-#ifndef POINT_H
-#define POINT_H
+#ifndef _POINT_H
+#define _POINT_H
 
 class Point
 {
@@ -18,4 +18,4 @@ private:
 	double y;
 };
 
-#endif // POINT_H 
+#endif _POINT_H 

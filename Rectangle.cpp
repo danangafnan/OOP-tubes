@@ -1,8 +1,8 @@
 
 #include "Figure.h"
 #include "Rectangle.h"
-#include <iostream.h>
-
+#include <iostream>
+using namespace std;
 // constructor
 Rectangle::Rectangle(double newx, double newy, double newwidth, double newheight): Figure(newx, newy) {
    setWidth(newwidth);

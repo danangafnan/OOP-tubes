@@ -1,5 +1,5 @@
-#ifndef _ELIPSE_H
-#define _ELIPSE_H
+#ifndef _ELLIPSE_H
+#define _ELLIPSE_H
 
 class Ellipse: public Figure {
 
@@ -15,4 +15,4 @@ private:
    double minorAxis,majorAxis;
 };
 
-#endif _ELIPSE_H
+#endif _ELLIPSE_H

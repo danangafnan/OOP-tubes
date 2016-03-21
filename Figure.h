@@ -1,8 +1,9 @@
 //File: Figure.h
-#ifdnef _Figure_H
-#define _Figure_H
-
 #include "Point.h"
+
+#ifndef _FIGURE_H
+#define _FIGURE_H
+
 
 class Figure {
 
@@ -21,4 +22,4 @@ private:
    double y;
 };
 
-#endif _Figure_H
+#endif _FIGURE_H

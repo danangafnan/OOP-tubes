@@ -1,7 +1,7 @@
 #include "Figure.h"
 #include "Ellipse.h"
-#include <iostream.h>
-
+#include <iostream>
+using namespace std;
 Ellipse::Ellipse(double newx, double newy, double minorAxis, majorAxis): Figure(newx, newy) {
    setMinorAxis(minorAxis);
    setMajorAxis(majorAxis);

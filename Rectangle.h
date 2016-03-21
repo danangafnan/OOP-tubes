@@ -1,4 +1,5 @@
 //File: Rectangle.h
+#include "Figure.h"
 #ifndef _RECTANGLE_H
 #define _RECTANGLE_H
 

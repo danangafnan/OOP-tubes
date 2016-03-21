@@ -1,7 +1,8 @@
-#ifndef LINE_H
-#define LINE_H
-
 #include "Point.h"
+#ifndef _LINE_H
+#define _LINE_H
+
+
 
 class Line
 {
@@ -16,4 +17,4 @@ private:
     double A,B;
 };
 
-#endif // LINE_H 
+#endif _LINE_H 
